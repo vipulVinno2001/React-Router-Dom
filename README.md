@@ -12,3 +12,6 @@
 
 # useNavigate Hook
    - The useNavigate hook in React is part of the react-router-dom library, introduced in version 6. It provides a programmatic way to navigate between different routes in a React application, similar to the older useHistory hook.
+
+# useLocation Hook
+  - The useLocation hook in React is part of the react-router-dom library. It allows you to access the current location object, which represents the current URL in the browser, including the pathname, search parameters, and hash.
