@@ -10,6 +10,8 @@ import Contact from "./Component/Contact";
 import Company from "./Component/Company";
 import Channel from "./Component/Channel";
 import Other from "./Component/Other";
+import Login from "./Component/Login";
+
 function App() {
   return (
     <>
@@ -28,6 +30,7 @@ function App() {
             <Route path="channel" element={<Channel />}/>
             <Route path="other" element={<Other />}/>
           </Route>
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </>
